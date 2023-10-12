@@ -1,0 +1,141 @@
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  header img {
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Apply styles to the main section */
+  main {
+    margin: 20px;
+  }
+  
+  /* Apply styles to the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #aaa;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Apply styles to links */
+  a {
+    text-decoration: none;
+    color: #0078d4;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apply styles to the skills list */
+  ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ol li {
+    margin: 5px 0;
+  }
+  
+  /* Apply styles to the audio and video elements */
+  audio, video {
+    width: 100%;
+  }
+  
+  /* Apply styles to the Connect With Me links */
+  section li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Apply styles to the note and blockquote */
+  p b {
+    color: #0078d4;
+  }
+  
+  blockquote {
+    text-align: right;
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+    background-color: #f9f9f9;
+  }
+  
+  /* Apply styles to the mark and del elements */
+  mark {
+    background-color: yellow;
+  }
+  
+  del {
+    text-decoration: line-through;
+  }
+  
+  /* Apply styles to the h2 elements */
+  h2 {
+    color: #333;
+  }
+  
+  /* Apply styles to the footer links */
+  footer a {
+    color: #0078d4;
+  }
+  
+  /* Apply styles to the Phone link */
+  footer a[title="Phone"] {
+    color: #ff6347;
+  }
+  
+  /* Apply styles to the mailto link */
+  footer a[href^="mailto:"] {
+    color: #2e8b57;
+  }
+  
